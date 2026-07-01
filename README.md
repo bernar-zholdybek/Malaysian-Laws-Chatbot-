@@ -41,7 +41,7 @@ pip install -r requirements.txt
 Move to the project folder 
 
 ``` bash 
-cd Downloads/your_project_folder
+cd Downloads/example_location_project_folder
 ```
 
 Run the programm
