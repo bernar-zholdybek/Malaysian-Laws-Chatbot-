@@ -1,0 +1,12 @@
+python-dotenv
+streamlit
+langchain
+langchain-huggingface
+langchain-chroma
+langchain-google-genai
+langchain-text-splitters
+google-generativeai
+chromadb
+pypdf
+sentence-transformers
+
