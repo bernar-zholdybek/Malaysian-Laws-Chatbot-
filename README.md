@@ -3,7 +3,7 @@ An AI-powered chatbot built with Streamlit and LangChain that allows to upload P
 
 
 ## Features
-    - PDF Document Ingestion: Extracts and splits text from PDF files seamlessly
+    ** PDF Document Ingestion: Extracts and splits text from PDF files seamlessly
     - Vector Storage: Uses ChromaDB and HuggingFace sentence-transformers to store and retrieve document contexts
     - Smart Answers: Leverages Google's Gemini models via LangChain for precise, grounded responses
     - Interactive UI: A clean, easy-to-use web interface powered by Streamlit
