@@ -37,7 +37,7 @@ Install all the required packages
 pip install -r requirements.txt
 ```
 
-## 2. 
+## 2. How to Run
 Move to the project folder 
 
 ``` bash 
