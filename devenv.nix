@@ -48,6 +48,6 @@
   ]);
 
   
-  enterShell = '' echo " To start your app: streamlit run newcode.py" '';
+  enterShell = '' echo " To start your app: streamlit run app.py" '';
 
 }
