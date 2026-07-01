@@ -73,8 +73,7 @@ Run the programm
 ```bash
 streamlit run newcode.py
 ```
-note: app will build the vector database from the PDFs automatically. 
-This takes a few minutes. Subsequent starts are instant.
+(note: app will build the vector database from the PDFs automatically. This takes a few minutes. Subsequent starts are instant.)
 
     
 ## Tech Stack
