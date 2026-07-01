@@ -28,6 +28,10 @@ An AI-powered chatbot built with Streamlit and LangChain that allows to upload P
     ├── .env                         # API key 
     └── README.md
 
+## Prerequisites
+* Python 3.10
+* Free Google Gemini API key (can be acquired at aistudio.google.com)
+* PDF files of law acts, placed in the laws/ folder
 
     
 ## Tech Stack
