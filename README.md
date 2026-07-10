@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set API key
-Get API key at *aistudio.google.com*. Create a .env file in the project root with this text inside:
+Get API key at *aistudio.google.com*. Create a ".env" (without name) file in the project root with this text inside:
 ```bash
 GOOGLE_API_KEY = API_key_from_website
 ```
