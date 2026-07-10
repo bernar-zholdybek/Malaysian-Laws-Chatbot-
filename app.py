@@ -140,7 +140,7 @@ def initialize_system():
 @st.cache_resource
 def get_llm():
     return ChatGoogleGenerativeAI(
-        model = "gemini-2.5-flash-lite",
+        model = "gemini-3.5-flash",
         google_api_key = GOOGLE_API_KEY,
         temperature = 0.1,
     )
@@ -287,7 +287,12 @@ Plain-English answer:"""
 
                         # call LLM
                         llm = get_llm()
-                        summary = llm.invoke(prompt).content
+                        response_content = llm.invoke(prompt).content
+
+                        if isinstance(response_content, list):
+                            summary = "".join([block["text"] for block in response_content if block.get("type") == "text"])
+                        else:
+                            summary = response_content
 
                         # display summary
                         st.markdown(summary)
